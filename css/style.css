@@ -1,3 +1,5 @@
+@fa-font-path:   "../fonts/less/variables.less";
+
 @media print {
   @page {
     size: 370mm 480mm;
@@ -82,3 +84,7 @@ body {-webkit-print-color-adjust: exact;}
     }
 
 }*/
+.socialicons > h4{
+  margin-top: 0px;
+    margin-bottom: 0px;
+}
