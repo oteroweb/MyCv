@@ -1,0 +1,30 @@
+.blackback{background-color: black;}
+.whiteback{background-color: white;}
+.consolas{font-family: consolas;}
+.CopperplateLight{font-family: CopperplateLight;}
+.CopperplateBold{font-family: CopperplateBold;}
+@font-face {
+    font-family: consolas;
+    src: url(consolas.ttf);
+}
+@font-face {
+    font-family: CopperplateLight;
+    src: url(Copperplate Gothic Light Regular.ttf);
+}
+@font-face {
+    font-family: CopperplateBold;
+    src: url(Copperplate Gothic Bold Regular.ttf);
+}
+.title{font-size: 47px}
+.subtitle{font-size: 40px}
+.mayus{text-transform: uppercase;}
+.whitetext{color:white;}
+.bolder{font-weight:bolder;}
+.carnet{padding: 20px;}
+.hr1{    border-top: 2px solid blue;}
+.bluetext{color: blue}
+.greentext{color: green}
+.redtext{color:red}
+/*.email{color:text}*/
+.aboutme{color: rgb(254,254,254); text-align: justify;}
+.font12{font-size: 12px}
