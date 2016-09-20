@@ -6,7 +6,7 @@
 }
 .blackback{background-color: black;}
 .whiteback{background-color: white;}
-.consolas{font-family: consolas;}
+.consolas{font-family: consolas; font-size: 12px}
 .CopperplateLight{font-family: CopperplateLight;}
 .CopperplateBold{font-family: CopperplateBold;}
 @font-face {
