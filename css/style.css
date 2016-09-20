@@ -1,3 +1,9 @@
+.container-fluid {
+     padding-right: 0px; 
+     padding-left: 0px; 
+    margin-right: auto;
+    margin-left: auto;
+}
 .blackback{background-color: black;}
 .whiteback{background-color: white;}
 .consolas{font-family: consolas;}
@@ -35,3 +41,7 @@
 .profession{font-size: 27px;}
 .email{font-size: 20px;}
 .contact{    margin-top: -23px;}
+.d90{-webkit-transform: rotate(-90deg);
+
+-moz-transform: rotate(-90deg);
+}
