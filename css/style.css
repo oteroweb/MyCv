@@ -26,5 +26,12 @@
 .greentext{color: green}
 .redtext{color:red}
 /*.email{color:text}*/
-.aboutme{color: rgb(254,254,254); text-align: justify;}
-.font12{font-size: 12px}
+.aboutme{color: rgb(254,254,254); text-align: left;}
+.font12{font-size: 15px;}
+.logo{    padding-bottom: 25px;
+    margin-top: -75px;}
+.date{    font-size: 33px;
+    margin-top: -20px;}
+.profession{font-size: 27px;}
+.email{font-size: 20px;}
+.contact{    margin-top: -23px;}
