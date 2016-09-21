@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{'TITLE' | translate}}</title>
+    <title translate="TITLE">Jose Luis Otero Curriculum Vitae</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -16,10 +16,8 @@
     <![endif]-->
   </head>
   <body ng-controller="ctrl">
-    <div class="options">
-       <p><a href="#" ng-click="setLang('en_US')">English</a>|<a href="#" ng-click="setLang('es_ES')">Español</a></p>
-    </div>
-  <h1></h1>
+    
+    
 <!-- Languages:
 Spanish (Competition bilingual or native)
 English (basic competency professional)
@@ -27,8 +25,11 @@ Portuguese (basic competence) -->
 
   <div class="container-fluid blackback">
     <div class="row">
+
       <div class="col-sm-10">
-   
+   <div class="options">
+       <p><a href="#" ng-click="setLang('en_US')"><span translate="ENGLISH">English</span></a>|<a href="#" ng-click="setLang('es_ES')"><span translate="SPANISH">Spanish</span></a></p>
+    </div>
       <h1 class="title text-right   CopperplateLight mayus whitetext bolder">   Curriculum Vitae</h1>
       <h1 class="subtitle text-right CopperplateLight  whitetext">Summary</h1>
       <hr class="hr1">
@@ -351,14 +352,6 @@ Basic and advanced editing programs Vectors ( Illustrator and CorelDraw )
 
 
 </div>
-
-
-
-
-
-
-
-
     <div class="col-sm-2 whitetext aboutme consolas ">
       Personal data: <br>
       Names: Jose Luis <br>
@@ -399,11 +392,15 @@ angular.module('app', ['pascalprecht.translate'])
   $translateProvider.translations('en_US', {
     "TITLE"     : "Jose Luis Otero Curriculum Vitae",
     "HEADER"    : "CURRICULUM VITAE",
+    "SPANISH"    : "Spanish",
+    "ENGLISH"    : "English",
   });
   $translateProvider.translations('es_ES', 
   {
     "TITLE"     : "Resumen Curricular Jose Luis Otero",
     "HEADER"    : "Resumen Curricular",
+    "SPANISH"    : "Español",
+    "ENGLISH"    : "Ingles",
   }
   );
   $translateProvider.preferredLanguage('en_US');
