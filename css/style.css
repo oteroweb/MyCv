@@ -25,7 +25,7 @@
 }
 .blackback{background-color: black !important;}
 .whiteback{background-color: white !important;}
-.consolas{font-family: consolas; font-size: 12px;}
+.consolas{font-family: consolas; font-size: 15.7px;}
 .CopperplateLight{font-family: CopperplateLight;}
 .CopperplateBold{font-family: CopperplateBold;}
 @font-face {
@@ -68,33 +68,10 @@ hr{
 .profession{font-size: 27px;}
 .email{font-size: 20px;}
 .contact{    margin-top: -23px;}
-.d90{-webkit-transform: rotate(-90deg);
-
--moz-transform: rotate(-90deg);
-}
-@media print {
-body {-webkit-print-color-adjust: exact;}
-}
-/*
-@media print {
-
-
-    .blackback{
-      background-color: black;
-        -webkit-print-color-adjust: exact; 
-    }
-    .whiteback{background-color: white;
-        -webkit-print-color-adjust: exact; 
-    }
-
-}*/
 .socialicons > h4{
   margin-top: 0px;
     margin-bottom: 0px;
 }
-
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+.education{
+  border-bottom: 1px solid rgba(0,0,0,0.2);
 }
