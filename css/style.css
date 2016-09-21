@@ -12,6 +12,9 @@
   .container {
     width: 1170px;
   }
+  .options{
+    display: none;
+  }
 }
 .container-fluid {
      padding-right: 0px; 
