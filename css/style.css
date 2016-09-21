@@ -1,7 +1,8 @@
+
 @media print {
   @page {
     size: 370mm 480mm;
-    /*size: 215.9mm 279.4mm; */
+    /*size: 215.9mm 279.4mm; 
     /*leter*/
 
     /*size: 330mm 427mm;*/
@@ -14,6 +15,8 @@
     display: none;
   }
 }
+
+
 .container-fluid {
      padding-right: 0px; 
      padding-left: 0px; 
