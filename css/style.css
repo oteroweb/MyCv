@@ -91,3 +91,9 @@ body {-webkit-print-color-adjust: exact;}
   margin-top: 0px;
     margin-bottom: 0px;
 }
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
