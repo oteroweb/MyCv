@@ -1,5 +1,3 @@
-@fa-font-path:   "../fonts/less/variables.less";
-
 @media print {
   @page {
     size: 370mm 480mm;
@@ -29,7 +27,7 @@
 .CopperplateBold{font-family: CopperplateBold;}
 @font-face {
     font-family: consolas;
-    src: url(consolas.ttf);
+    src: url(Consolas.ttf);
 }
 @font-face {
     font-family: CopperplateLight;
