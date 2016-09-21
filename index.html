@@ -30,10 +30,10 @@ Portuguese (basic competence) -->
    <div class="options">
        <p><a href="#" ng-click="setLang('en_US')"><span translate="ENGLISH">English</span></a>|<a href="#" ng-click="setLang('es_ES')"><span translate="SPANISH">Spanish</span></a></p>
     </div>
-      <h1 class="title text-right   CopperplateLight mayus whitetext bolder">   Curriculum Vitae</h1>
-      <h1 class="subtitle text-right CopperplateLight  whitetext">Summary</h1>
+      <h1 class="title text-right   CopperplateLight mayus whitetext bolder" translate="HEADER"> Curriculum Vitae  </h1>
+      <h1 class="subtitle text-right CopperplateLight  whitetext" translate="SUMMARY">Summary</h1>
       <hr class="hr1">
-      <h3 class="text-right consolas bluetext mayus date"> september 2016</h3>
+      <h3 class="text-right consolas bluetext mayus date" translate="DATE"> September 2016</h3>
       </div>
       <div class="col-sm-2">
       <img class="img-responsive carnet" src="img/foto.jpg" alt="">
@@ -53,26 +53,26 @@ Portuguese (basic competence) -->
       <!-- <h3><i class="fa fa-camera-retro fa-md"></i> </h3> -->
       <!-- <h3><i class="fa fa-camera-retro fa-md"></i> </h3> -->
       </div>
-      <div class="col-sm-3 contact"> 
-      <h3 class="consolas text-left greentext  profession">Developer Full Stack </h3>
+      <div class="col-sm-4 contact"> 
+      <h3 class="consolas text-left greentext  profession" translate="PROFESSION">Developer Full Stack </h3>
       <h4 class="consolas text-left redtext email">Oterolopez1990@gmail.com</h3>
       </div>
     </div>
     <div class="col-sm-10 whiteback consolas">
-<h4 class="text-center">Education</h4> <hr>
-<p>Sixth semester system engineering in system in the University National Experimental Polytechnic of Armed Force Bolivariana, 2007 - 2010
+<h4 class="text-center" translate="EDUCATION">Education</h4> <hr>
+<p translate="STUDY">Sixth semester system engineering in system in the University National Experimental Polytechnic of Armed Force Bolivariana, 2007 - 2010
  </p>
-<h4 class="text-center">Certifications</h4> <hr>
+<h4 class="text-center" translate="CERTIFICATIONS">Certifications</h4> <hr>
 <div class="row">
   
-<div class="col-sm-5">Course</div>
-<div class="col-sm-2">Period</div>
+<div class="col-sm-5" translate="COURSE">Course</div>
+<div class="col-sm-2" translate="PERIOD">Period</div>
 <div class="col-sm-5">Description</div>
 </div>
 <div class="row">
   
 <div class="col-sm-5">Certification Frontend Developer</div>
-<div class="col-sm-2">june 2016</div>
+<div class="col-sm-2">June 2016</div>
 <div class="col-sm-5">Course Online in the plataform Free Code Camp Link: <a href="https://www.freecodecamp.com/oteroweb">https://www.freecodecamp.com/oteroweb</a> </div>
 </div>
 <div class="row">
@@ -394,6 +394,39 @@ angular.module('app', ['pascalprecht.translate'])
     "HEADER"    : "CURRICULUM VITAE",
     "SPANISH"    : "Spanish",
     "ENGLISH"    : "English",
+    "SUMMARY" : "Summary",
+    "DATE": "September 2016",
+    "PROFESSION":"Developer Full Stack",
+    "EDUCATION" : "Education",
+    "STUDY" : "Sixth semester system engineering in system in the University National Experimental Polytechnic of Armed Force Bolivariana, 2007 - 2010",
+    "CERTIFICATIONS" : "Certifications",
+    "COURSE" : "Course",
+    "PERIOD" : "Period",
+    
+    "SUMMARY" : "Summary",
+    "SUMMARY" : "Summary",
+    "SUMMARY" : "Summary",
+    "SUMMARY" : "Summary",
+    "SUMMARY" : "Summary",
+    "SUMMARY" : "Summary",
+    "SUMMARY" : "Summary",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   });
   $translateProvider.translations('es_ES', 
   {
@@ -401,6 +434,14 @@ angular.module('app', ['pascalprecht.translate'])
     "HEADER"    : "Resumen Curricular",
     "SPANISH"    : "Español",
     "ENGLISH"    : "Ingles",
+    "SUMMARY" : "Sintesis",
+    "DATE": "Septiembre 2016",
+    "PROFESSION":"Desarrollador Full Stack",
+    "EDUCATION" : "Educacion",
+    "STUDY" : "Sexto semestre de ingenieria en Sistemas en La Universidad Nacional Experimental de la Fuerza Armada Nacional Bolivariana, 2007 - 2010",
+    "CERTIFICATIONS" : "Certificaciones",
+    "COURSE" : "Curso",
+    "PERIOD" : "Periodo",
   }
   );
   $translateProvider.preferredLanguage('en_US');
@@ -413,3 +454,4 @@ angular.module('app', ['pascalprecht.translate'])
 </script>
   </body>
 </html>
+<span translate="HEADER">Curriculum Vitae</span>
